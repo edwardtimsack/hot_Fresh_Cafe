@@ -4,14 +4,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: hsl(34, 26%, 95%);
+}
 
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: blue; */
 }
 .container{
     display: block;
+    box-shadow: 0px 0px 8px #ffff;
 }
 form{
     /* background-color: ivory; */
