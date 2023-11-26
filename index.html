@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashier</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <dv class="container">
+            <form>
+                <h1>Hot & Fresh Cafe</h1>
+                <div class="about">
+                    <input type="text" name="" placeholder="Customer's Name">
+                    <select>
+                        <option disabled selected>Select Currency</option>
+                        <option value="LRD">LRD</option>
+                        <option value="USD">USD</option>
+                    </select>
+                    <div class="purchase">
+                        <p class="order-details">Order Details</p>
+                        <div class="orderItem-container">
+                        <input type="text" placeholder="Order Item">
+                        </div>
+                        
+                        <div class="price-container">
+                        <input type="number" placeholder="Price">
+                        </div>
+
+                        <div class="quantity-container">
+                       <input type="number" placeholder="Quantity">
+                        </div>
+
+                        <!-- <div class="remove-container">
+                        <button>Remove Order</button>
+                        </div> -->
+
+                    </div>
+                    <div class="total">
+                        <p>Total <span class="total-amount">$0</span></p>
+                        <button class="sum-total">Total</button>
+                    </div>
+                    <div class="add-save-button">
+                        <button class="add-btn">Add Item</button>
+                        <button class="save_order">Save Order</button>
+
+                    </div>
+                </div>
+                </form>
+        </div>
+        </div>
+<script src="./script.js"></script>  
+</body>
+</html

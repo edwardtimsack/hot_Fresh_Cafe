@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: block;
+}
+form{
+    /* background-color: ivory; */
+    height: 500px;
+    padding: 20px;
+}
+form h1{
+    text-align: center;
+}
+input,
+select{
+    background-color: #f3f3f3;
+    border: 1px solid #afafaf;
+    outline: transparent;
+    border-radius: 3px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+.about input, select{
+    padding: 10px;
+    border: 2px black;
+    border: 1px solid #afafaf;
+}
+.purchase{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.order-details{
+    font-weight: 600;
+}
+.remove-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.remove-container button{
+    width: 350px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.orderItem-container,
+.price-container,
+.quantity-container{
+    display: flex;
+    flex-direction: column;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.add-btn{
+    background-color: rgb(28, 231, 28);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+
+}.sum-total{
+    width: 120px;
+    background-color: rgb(71, 71, 236);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.save_order{
+    background-color: rgb(161, 161, 211);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+.add-save-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
